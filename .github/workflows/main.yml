@@ -32,4 +32,4 @@ jobs:
           docker rm -f nodejs-app-container || true
 
       - name: Run Docker Container
-        run: docker run
+        run: docker run -d -p 4000:4000 nodejs-app:latest
