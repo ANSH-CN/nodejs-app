@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ANSH_CN_nodejs_app_1759409480508-push-trigger-input-set
+  identifier: Build_ANSH_CN_nodejs_app_1759409480508pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_ANSH_CN_nodejs_app_1759409480508
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
